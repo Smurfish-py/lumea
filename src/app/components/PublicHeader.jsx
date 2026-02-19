@@ -36,7 +36,9 @@ export default function PublicHeader() {
                         </li>
                     </ul>
                 </div>
-                <a className={`${poppins.className} btn btn-ghost text-2xl`}>Lumea</a>
+                <a className={`${poppins.className} btn btn-ghost text-2xl`}>
+                    Lumea <span className="text-xs badge badge-soft badge-sm badge-neutral">Portofolio</span>
+                </a>
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
                     <li>
                         <details>
